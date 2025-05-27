@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
 using System.Text;
 
-const string API_KEY = "5tMpg9KcwHw57Kx9qUUNILITRJ1WK3yFQuOw3Cd9HQ8VY6vYC7oPJQQJ99BEACHYHv6XJ3w3AAAAACOGOZVY";
-const string ENDPOINT = "https://paco-mb6srmq2-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4.1/chat/completions?api-version=2025-01-01-preview";
+const string API_KEY = "<Key>";
+const string ENDPOINT = "<URL>";
 Console.WriteLine("Dime tu pregunta:");
 var question = Console.ReadLine();
 await AskQuestion(question);
